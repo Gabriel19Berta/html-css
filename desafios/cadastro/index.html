@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Cadastro de Clientes</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="cadastro">
-        <form action="cadastro.py" method="post" autocomplete="on">
+        <form action="pag2.html" method="post" autocomplete="on">
             <fieldset>
                 <legend>CADASTRO DE CLIENTES</legend>
                 <div>
@@ -30,7 +31,16 @@
                 </div>
                 <div>
                     <label for="icidade">Cidade</label> <br>
-                    <input type="text" name="cidade" id="icidade" required>
+                    <select name="cidade" id="icidade" required>
+                        <option value="Alto Paraíso">Alto Paraíso</option>
+                        <option value="Altônia">Altônia</option>
+                        <option value="Campo Mourão">Campo Mourão</option>
+                        <option value="Cruzeiro do Oeste">Cruzeiro do Oeste</option>
+                        <option value="Iporã">Iporã</option>
+                        <option value="Perobal">Perobal</option>
+                        <option value="Tapejara">Tapejara</option>
+                        <option value="Umuarama">Umuarama</option>
+                    </select>
                 </div>
                 <div>
                     <label for="sexo">Sexo</label> <br>
@@ -39,7 +49,7 @@
                     <input type="radio" name="sexo" id="outro" value="Outro"> <label for="outro">Outro</label>
                 </div>
                 <div>
-                    <input type="submit" value="ENVIAR">
+                    <input type="submit" value="PROXIMO">
                 </div>
             </fieldset>
         </form>

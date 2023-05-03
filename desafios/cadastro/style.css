@@ -45,7 +45,7 @@ legend {
     background-color: #027e8b;
     text-align: center;
     font-family: var(--fonte1);
-    font-size: 1.2em;
+    font-size: 1.3em;
     border: none;
     border-radius: 15px;
     padding: 7px;
@@ -58,6 +58,7 @@ div {
 
 label {
     font-family: var(--fonte2);
+    font-size: 1.2em;
 }
 
 input {
@@ -65,7 +66,15 @@ input {
     border-radius: 5px;
     padding: 10px;
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1.1em;
+}
+
+select {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 38px;
+    font-size: 1.1em;
 }
 
 input[type=radio] {
@@ -80,8 +89,6 @@ input[type=submit] {
     padding: 8px;
     font-size: 1.1em;
 }
-
-/* #45bebe */
 
 input[type=submit]:hover {
     background-color: #003349;
